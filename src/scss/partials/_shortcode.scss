@@ -1,0 +1,149 @@
+.button {
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px 20px 5px 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #fff;
+  color: $primary-color;
+  text-decoration: none;
+  border: 1px solid $primary-color;
+}
+.book_now_banner{
+  background-color: $light-primary-color;
+  color: $white-text;
+  .container>div {
+    padding: 20px 0;
+  }
+  p{
+    color: $white-text
+  }
+  a.button {
+    background-color: $main-background-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: -5px;
+    display: inline-block;
+  }
+  .button {
+    background-color: $main-background-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: -5px;
+    display: inline-block;
+  }
+  .button:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+  }
+}
+.book_now_banner .book_now_text {
+    color: $white-text;
+    font-size: 34px;
+    float: none;
+    margin-top: 3px;
+    text-align: center;
+    width: 100%;
+    margin-left: 40px;
+}
+.info_box{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .button:hover {
+      background-color: #fff;
+      color: $primary-color;
+      text-decoration: none;
+      border: 1px solid $primary-color;
+  }
+}
+.infotitle {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.HearingForm h2 {
+    color: $white-text;
+    font-size: 24px;
+}
+.HearingForm{
+  background-color: $secondary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .button:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+  }
+}
+.floatingear{
+  float: right;
+  position: absolute;
+  right: -170px;
+  width: 230px;
+  top: 5px;
+}
+.HearingForm .col{
+  margin-bottom: 10px;
+}
+.PromotionContent{
+
+}
+
