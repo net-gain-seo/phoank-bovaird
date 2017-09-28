@@ -6,12 +6,14 @@
     p{
     color: white;
     margin-bottom: 0px;
+    font-family: 'opensans', sans-serif, arial;
     }
 }
 .footer-left{
-
+	font-family: 'opensans', sans-serif, arial;
     em{
         color:white;
+        font-family: 'opensans', sans-serif, arial;
     }
 }
 .socialalign{
@@ -30,7 +32,10 @@
 #footercopy{
     font-style: italic;
     text-align: center;
+    font-family: 'opensans', sans-serif, arial;
+    color: $black;
 }
+
 footer {
   display: block;
   clear: both;
@@ -72,9 +77,11 @@ footer {
             float: left;
             position: relative;
             margin-right: 20px;
+            font-family: 'opensans', sans-serif, arial;
                 a{
                     display: inline-block;
                     font-weight: bold;
+                    font-family: 'opensans', sans-serif, arial;
                     text-transform: uppercase;
                 }
             }
@@ -83,15 +90,17 @@ footer {
     .phone{
         color: white;
         font-size: 28px;
+        font-family: 'opensans', sans-serif, arial;
     }
     .address{
         margin-bottom: 10px;
+        font-family: 'opensans', sans-serif, arial;
     }
     .footertitle{
         font-size: 20px;
         color: white;
         margin-bottom: 0px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     #footerBottom {
         background: $main-background-color;

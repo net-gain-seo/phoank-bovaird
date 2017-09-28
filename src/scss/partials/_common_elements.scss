@@ -1,17 +1,14 @@
 .pageheading {
     padding: 50px 0px;
 }
-
 .pagetitle {
     color: #006DB6;
     font-size: 1.5rem;
 }
-
 .Pagebanner {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .Pagebanner .col {
     padding: 8.5rem 0;
     float: left;
@@ -25,7 +22,6 @@
     font-weight: bold;
     font-size: 3rem;
 }
-
 .blackstatement {
     text-align: center;
     color: black;
@@ -34,7 +30,6 @@
     margin-bottom: 0px;
     padding: 40px 0px;
 }
-
 .whitestatement {
     text-align: center;
     color: white;
@@ -43,7 +38,6 @@
     margin-bottom: 0px;
     padding: 20px 0px;
 }
-
 .fifty-fifty-section-background {
     background-repeat: no-repeat;
     background-position: right;
@@ -52,24 +46,20 @@
     max-height: 480px;
     min-height: 480px;
 }
-
 .d-flex {
     display: -webkit-box!important;
     display: -webkit-flex!important;
     display: -ms-flexbox!important;
     display: flex!important;
 }
-
 .fifty-percent-section.white-background {
     width: 495px;
     height: 100%;
     background-color: white;
 }
-
 .container.padding0 {
     padding: 0px;
 }
-
 .alignimage {
     text-align: center;
     margin: auto;
@@ -144,14 +134,14 @@
   h4{
     padding: 25px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     height: 100px;
     margin-bottom: 0px;
   }
   p{
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 0px;
   }
@@ -161,4 +151,10 @@
 }
 .padding50 .container > div {
     padding: 50px 0;
+}
+.welcometext{
+    padding-top: 50px;
+}
+.container.padding40>div {
+    padding: 40px 0;
 }

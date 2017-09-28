@@ -28,7 +28,9 @@ $bodyFont: "Open Sans", sans-serif;
 .whiteText{
 	color: $white-text;
 }
-
+.blackText{
+    color: $black;
+}
 .mainBackgroundColor{
 	background-color: $main-background-color;
 }
@@ -46,4 +48,14 @@ $bodyFont: "Open Sans", sans-serif;
 }
 .secondaryBg {
     background: $secondary-color;
+}
+
+.lato{
+    font-family: 'lato', sans-serif, arial!important;
+}
+.lora {
+    font-family: 'lora', sans-serif, arial!important;
+}
+.opensans {
+    font-family: 'opensans', sans-serif, arial!important;
 }
