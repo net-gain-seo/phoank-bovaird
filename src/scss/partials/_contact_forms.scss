@@ -58,22 +58,20 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     border: 0px;
     display: inline-block;
 }
-
 .formbutton:hover {
     background-color: #fff;
     color: $primary-color;
     text-decoration: none;
 }
-
 .HearingForm input[type="text"], .HearingForm input[type="email"], .HearingForm input[type="number"], .HearingForm textarea, .HearingForm select {
-    padding: 10px;
+    padding: 13px;
     background-color: white;
-    font-family: inherit;
     color: #86888b;
-    font-size: 22px;
+    font-size: 18px;
     max-width: 100%;
     border: 0px solid;
     width: 100%;
+    font-family: lato;
 }
 .HearingForm .g-recaptcha{
   transform:scale(0.70);
@@ -99,6 +97,28 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
 }
 .HearingForm .container > div {
     padding: 50px 0;
+}
+.contactform{
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea,
+    select {
+        padding: 5px 10px;
+        background-color: white;
+        font-family: inherit;
+        color: #86888b;
+        max-width: 100%;
+        border: 2px solid #86888b;
+        width: 100%;
+    }
+}
+.contactform{
+
+    p{
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
 }
 .rowflex {
     box-sizing: border-box;

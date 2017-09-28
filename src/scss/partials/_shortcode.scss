@@ -105,6 +105,7 @@ div.wpcf7 {
 .HearingForm{
   background-color: $secondary-color;
   color: $white-text;
+  overflow: hidden;
 
   p{
     color: $white-text
@@ -135,7 +136,7 @@ div.wpcf7 {
   float: right;
   position: absolute;
   right: -170px;
-  width: 230px;
+  width: 225px;
   top: 5px;
 }
 .HearingForm .col{
