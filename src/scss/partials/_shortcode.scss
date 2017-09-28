@@ -51,13 +51,11 @@
   }
 }
 .book_now_banner .book_now_text {
-    color: $white-text;
+    color: #fff;
     font-size: 34px;
-    float: none;
-    margin-top: 3px;
-    text-align: center;
+    text-align: right;
     width: 100%;
-    margin-left: 40px;
+    float: right;
 }
 .info_box{
   background-color: $primary-color;
@@ -107,6 +105,7 @@ div.wpcf7 {
 .HearingForm{
   background-color: $secondary-color;
   color: $white-text;
+  overflow: hidden;
 
   p{
     color: $white-text
@@ -137,7 +136,7 @@ div.wpcf7 {
   float: right;
   position: absolute;
   right: -170px;
-  width: 230px;
+  width: 225px;
   top: 5px;
 }
 .HearingForm .col{

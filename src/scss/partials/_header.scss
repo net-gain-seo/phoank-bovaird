@@ -51,7 +51,7 @@ header #socialIcons a {
     padding: 10px 0;
 }
 #quizButton {
-    padding: 15px 30px;
+    padding: 15px 20px;
     background-color: #545454;
     color: #fff;
     text-decoration: none;
@@ -73,6 +73,7 @@ header #socialIcons a {
     padding: 7px 10px;
     border: 1px solid $white-text;
     color:  $white-text;
+    font-weight: bold;
     background-color: $light-primary-color;
 }
 .plusfont:hover, .minusfont:hover {

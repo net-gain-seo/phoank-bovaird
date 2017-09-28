@@ -37,8 +37,8 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
+<div class="container padding0">
+    <div class="row padding0">
         <div class="col col-12">
             <p id="footercopy" class="margin0">Copyright© <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?></p>
         </div>

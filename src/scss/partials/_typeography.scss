@@ -1,13 +1,14 @@
 body{
-			font-family: 'Roboto', sans-serif, arial;
+	font-family: 'lato', sans-serif, arial;
+	color: #545454;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-		margin-bottom: .75em;
-		font-family: 'Roboto', sans-serif, arial;
+	margin-bottom: .75em;
+	font-family: 'opensans', sans-serif, arial;
 }
 
 h1{
-    font-weight: 300;
+	font-weight: 300; 
 }
 h2{
     font-size: 2rem;
@@ -27,21 +28,24 @@ h6{
 
 }
 p{
-		font-family: 'Roboto', sans-serif, arial;
+    font-family: 'lato', arial, sans-serif;
+	color: #545454;
+	font-size: 1.25rem;
 }
 ul{
 	 padding-left: 20px;
 	li{
-	font-family: 'Roboto', sans-serif, arial;
+	font-family: 'lato', sans-serif, arial;
 	margin-bottom: 0px!important;
-  font-weight: normal!important;
-  font-size: 1rem!important;
-  color: black!important;
+	font-weight: normal!important;
+	font-size: 1rem!important;
+	color: #545454;
 	}
 }
 ol{
 	li{
-	font-family: 'Roboto', sans-serif, arial;
+	font-family: 'lato', sans-serif, arial;
+	color: #545454;
 	}
 }
 a {
