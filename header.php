@@ -41,7 +41,7 @@ if(get_option('modular_wp_site_style') == "Boxed"){ echo '<div id="modular_site_
 			        <a href="#" id="incfont" title="Increase font size" class="plusfont">A+</a><a href="#" id="decfont" title="Decrease font size" class="minusfont">A-</a>
 		        </div>
 	            <div class="contactButtons">
-	                <a href="#" class="btn btn-secondary" id="quizButton" >Book Appointment</a> <a href="<?php echo get_option('hearing_quiz_url'); ?>" class="btn btn-secondary" id="quizButton" ><?php echo get_option('hearing_quiz_title'); ?></a>
+	                <a href="<?php echo get_option('request_appointment_url'); ?>" class="btn btn-secondary" id="quizButton" >Book Appointment</a> <a href="<?php echo get_option('hearing_quiz_url'); ?>" class="btn btn-secondary" id="quizButton" ><?php echo get_option('hearing_quiz_title'); ?></a>
 	            </div>
 	            <div id="callToAction">
 	                <?php dynamic_sidebar('call-to-action'); ?>
