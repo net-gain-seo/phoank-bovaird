@@ -38,11 +38,9 @@
     </div>
 </div>
 <div class="container padding0">
-    <div class="row padding0">
-        <div class="col col-12">
+        <div class="col col-12 padding0 margin0">
             <p id="footercopy" class="margin0">Copyright© <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?></p>
         </div>
-    </div>
 </div>
 </footer>
 

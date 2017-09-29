@@ -133,7 +133,6 @@ header #socialIcons a {
         float: none;
         margin: auto;
         width: 100%;
-        display: -webkit-inline-box;
     }
     #headerTop #logo {
         display: inline-block;
@@ -151,6 +150,7 @@ header #socialIcons a {
         text-align: center;
         float: none;
         margin-bottom: 10px;
+        margin-top: 10px;
 
         #quizButton {
             float: none;

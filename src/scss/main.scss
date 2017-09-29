@@ -16,6 +16,9 @@ body{
     margin: 0;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+main{
+    min-height: 440px;
+}
 p {
     line-height: 22px;
     font-family: 'lato', arial, sans-serif;

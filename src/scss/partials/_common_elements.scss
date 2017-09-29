@@ -178,9 +178,13 @@
 }
 .contactear {
     position: absolute;
-    right: -405px;
+    right: -585px;
     width: 600px;
-    top: 210px;
+    top: 175px;
+    max-width: 600px;
+}
+.contactform{
+    overflow: none;
 }
 .Addressbox{
     height: 75px;
@@ -197,6 +201,16 @@
     position: absolute;
     background-color: $secondary-color;
     height: 125px;
-    width: 280%;
+    width: 290%;
     left: -200%;
+}
+.aldsection{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.aidsection {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
 }

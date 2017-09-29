@@ -56,12 +56,39 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     margin-top: 5px;
     border-radius: 0px;
     border: 0px;
+    cursor: pointer;
     display: inline-block;
 }
 .formbutton:hover {
     background-color: #fff;
     color: $primary-color;
     text-decoration: none;
+}
+
+.page-id-19{
+    overflow-x: hidden;
+    .formbutton {
+        background-color: #44151F;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        padding: 15px 50px;
+        margin-top: 15px;
+        border-radius: 0px;
+        border: 0px;
+        cursor: pointer;
+        text-transform: uppercase;
+        display: inline-block;
+        font-family: arial;
+    }
+    .formbutton:hover {
+        background-color: #fff;
+        color: $primary-color;
+        text-decoration: none;
+    }
+    #longform{
+        margin-top: 10px;
+    }
 }
 .HearingForm input[type="text"], .HearingForm input[type="email"], .HearingForm input[type="number"], .HearingForm textarea, .HearingForm select {
     padding: 13px;
@@ -118,6 +145,7 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     p{
         margin-bottom: 5px;
         margin-top: 10px;
+        font-size: 1rem;
     }
 }
 .rowflex {
