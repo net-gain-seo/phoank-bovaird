@@ -165,6 +165,10 @@
     list-style: none;
     li{
         font-family: 'lato', Arial, Helvetica, sans-serif;
+        &:before{
+            content: "• ";
+            color: #8F2538; 
+        }
     }
     .fa-circle {
         color: $secondary-color;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora');
+
+
 @import "partials/mixins";
 @import "partials/blog";
 @import "partials/contact_forms";
@@ -12,16 +15,18 @@
 @import "partials/shortcode";
 @import "partials/responsive";
 
+
+
 body{
     margin: 0;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Lato', arial, sans-serif;
 }
 main{
     min-height: 440px;
 }
 p {
-    line-height: 22px;
-    font-family: 'lato', arial, sans-serif;
+    line-height: 26px;
+    font-family: 'Lato', arial, sans-serif;
     color: #545454;
     font-size: 1.25rem;
 }
@@ -40,4 +45,32 @@ em{
 }
 .right {
     float: right;
+}
+
+
+.redul li{
+    line-height: 28px;
+}
+
+#pageContent{
+    padding-top: 50px;
+}
+
+.page-id-19 #pageContent{
+    padding-top: 0px;
+}
+
+.book_now_banner .book_now_text {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+
+
+img.aligncenter{
+    margin: 0 auto;
+    display: block;
+}
+
+.ares.tp-bullets {
+    margin-left: 23.5%;
 }

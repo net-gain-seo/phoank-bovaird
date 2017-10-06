@@ -86,6 +86,10 @@ footer {
                     font-weight: bold;
                     font-family: 'opensans', sans-serif, arial;
                     text-transform: uppercase;
+
+                    &:hover{
+                        color: #ffffff;
+                    }
                 }
             }
         }

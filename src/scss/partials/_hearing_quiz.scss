@@ -49,6 +49,8 @@
 
 .quiz .question_text {
     display: block;
+    font-size: 35px;
+    font-family: 'lato', arial, sans-serif;
 }
 
 .quiz .next {
@@ -58,7 +60,7 @@
 }
 
 .quiz .next a {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Lato';
     font-style: italic;
     font-weight: 300;
@@ -85,7 +87,7 @@
 
 .question {
     text-align: center;
-    height: 415px;
+    height: 500px;
     padding: 25px 0;
     position: relative;
 }
@@ -102,7 +104,7 @@
 
 .question_text + .subtext {
     font-family: 'Lato';
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300;
     font-style: italic;
     padding-top: 75px;
@@ -112,9 +114,8 @@
 
 
 span.num_qs {
-    background: $secondary-color;
+    color: $secondary-color;
     padding: 0 25px;
-    color: #FFF;
 }
 
 .results .question_text {
@@ -229,10 +230,13 @@ span.num_qs {
     left: 0;
     width: 120px;
     height: 30px;
-    background: #000;
+    background: rgb(68, 21,31);
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
+    &:hover{
+        background: rgb(143, 37, 56);
+    }
 }
 
 .gr .check-display {
