@@ -148,6 +148,13 @@
 }
 
 @media only screen and (max-width: $screen-xsm-max) {
+        .book_now_banner .col-7, .book_now_banner .col-5 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 58.333333%;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .redbackground {
         position: absolute;
         background-color: #8F2538;
